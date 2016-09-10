@@ -28,7 +28,7 @@ a:hover{
     color: red;
     text-decoration: underline;
 }
-span{
+ #main span{
     display: block;
     height: 23px;
     line-height: 23px;
@@ -46,6 +46,9 @@ h5 a{
 h5 a:hover{
     color: black;
     text-decoration: none;
+}
+#date{
+    
 }
 #topest{
     display: block;
@@ -128,7 +131,7 @@ h5 a:hover{
 #middle{
     float: left;
     width: 289px;
-    height: 400p;
+    height: 400px;
 }
 #middle li{
     background: url(img/li-1.gif) no-repeat left;

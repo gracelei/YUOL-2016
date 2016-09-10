@@ -7,8 +7,8 @@
     </head>
     <body>
         <div id="topest">
-            您好，欢迎访问长江大学审计处！
-            <p id="date"></p>
+            <span>您好，长江大学审计处欢迎您!</span>
+            <span id="date"></span>
         </div>
         <div id="header">
             <img src="images/header.gif" alt="">
@@ -107,7 +107,7 @@
                 <div id="sjzx">
                    <h5>
                        <span>
-                           <a href="">more</a>
+                        <a href="">more</a>
                        </span>
                    </h5>
                     <ul>
@@ -199,9 +199,7 @@
             <p>版权所有：长江大学审计处&nbsp;联系方式：8060070&nbsp;技术支持：长大在线</p>
         </div>
         <script>
-            function time(){
-            document.getElementById('date').innerHTML="今天是："+newDate.getFullYear()+"年"+newDate.getMonth+"月"+newDate.getDate+"日",
-            }
+    document.getElementById('date').innerHTML="今天是"+new Date().getFullYear()+"年"+(new Date().getMonth()+1)+"月"+new Date().getDate()+"日"+" 星期"+"日一二三四五六".charAt(new Date().getDay());
         </script>
         <div class="clear"></div>
     </body>
