@@ -1,0 +1,226 @@
+.clearfix{
+    clear: both;
+}
+body{
+    background-color: white;
+    font-size: 15px;
+}
+h2{
+    float: left;
+    font-size: 18px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.more{
+    display: block;
+    height: 48px;
+    float: right;
+    text-indent: -10000000px;
+    width: 20px;
+    background: url(images/more.gif) no-repeat 0 center;
+}
+#header{
+    min-height: 174px;
+    padding: 24px 0 0 160px;
+    background: url(images/cdxh.gif) no-repeat 0 center,url(images/cdcx.gif) no-repeat right center ;
+}
+#header h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #006986;
+}
+#header small{
+    font-size: 15px;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: #006986;
+}
+.navi-div{
+    background-color: #006986;
+}
+#nav a{
+    color: white;
+}
+#nav a:hover{
+    color: #006986;
+}
+#upper{
+    margin-top: 20px;
+}
+#upper h2{
+    height: 48px;
+    text-indent: 40%;
+    line-height: 48px;
+    width: 80%;
+    margin: 0px;
+}
+#upper ul{
+    padding-top: 8px;
+    border-top: 4px solid #006986;
+}
+#upper li{
+    height: 28px;
+    text-indent: 18px;
+    line-height: 28px;
+}
+#upper li a{
+    display: block;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 75%;
+    overflow: hidden;
+    font-size: 13px;
+}
+#upper span{
+    float: right;
+    color: #006986;
+}
+#tzgg h2{
+    background: url(images/tzgg.gif) no-repeat left center;
+}
+#tzgg li a{
+    background: url(images/tzgg-bg.gif) no-repeat left center;
+}
+#xyxw h2{
+    background: url(images/xyxw.gif) no-repeat left center;
+}
+#xyxw li a{
+    background: url(images/xyxw-bg.gif) no-repeat left center;
+}
+#middle{
+    margin-top: 20px;
+}
+#middle h2{
+    height: 36px;
+    width: 80%;
+    margin: 0px;
+}
+#middle ul{
+    padding-top: 8px;
+    border-top: 4px solid #cedbde;   
+}
+#middle li{
+    height: 34px;
+    line-height: 34px;
+}
+#middle li a{
+    display: block;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 75%;
+    overflow: hidden;
+    font-size: 13px;
+}
+#middle .more{
+    height: 36px;
+}
+#jyjx h2{
+    background: url(images/jyjx.gif) no-repeat;
+}
+#jyjx li{
+    border-bottom: 4px solid #006986;
+}
+#kxyj li{
+    height: 28px;
+}
+#kxyj h2{
+    background: url(images/kxyj.gif) no-repeat;
+}
+#kxyj li a{
+    height: 28px;
+    line-height: 28px;
+    text-indent: 18px;
+    background: url(images/xyxw-bg.gif) no-repeat left center;
+}
+#ptjs h2{
+    background: url(images/ptjs.gif) no-repeat;
+}
+#ptjs li{
+    border-bottom: 4px solid #006986;
+}
+#down{
+    margin-top: 10px;
+    background-color: #e7f1f4;
+}
+#down h2{
+    font-size: 28px;
+    height: 120px;
+    line-height: 50px;
+    width: 50px;
+    padding: 10px 0 0 10px;
+    color: #006986;
+    margin: 20px;
+    border-right: 3px solid #006986;
+}
+#down ul{
+    margin-top: 20px;
+}
+#down li{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+#down a{
+    display: block;
+    height: 24px;
+}
+#xsheng{
+    float: left;
+    width: 360px;
+}
+#xz{
+    float: left;
+    width: 360px;
+}
+#xshu{
+    float: left;
+    width: 360px;
+}
+.bottom-nav{
+    background-color: #3d8da3;
+}
+#bt-nav a{
+    color: white;
+}
+#bt-nav a:hover{
+    color: #006986;
+}
+#informations{
+    float: left;
+    width: 36%;
+}
+#footer{
+    padding-top: 10px;
+    background-color: #006986;
+}
+#informations{
+    color: white;
+    font-size: 12px;
+}
+#informations p{
+    margin: 0 0 10px;
+}
+.mt{
+    width: 160px;
+    float: right;
+}
+.mt h5{
+    color: white;
+    float: left;
+    width: 14px;
+    margin: 14px 8px 0 0;
+}
