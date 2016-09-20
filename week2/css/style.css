@@ -50,10 +50,10 @@ a:hover{
 .navi-div{
     background-color: #006986;
 }
-#nav a{
+.nav a{
     color: white;
 }
-#nav a:hover{
+.nav a:hover{
     color: #006986;
 }
 #upper{
