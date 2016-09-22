@@ -1,20 +1,20 @@
+*{
+    font-family: "Segoe UI", Arial, Helvetica, "Microsoft Jhenghei", "Hiragino Sans GB", "WenQuanYi Zen Hei", "Microsoft Yahei", SimHei, STHeiti, "WenQuanYi Micro Hei", sans-serif;
+}
 .clearfix{
     clear: both;
 }
 body{
     background-color: white;
-    font-size: 15px;
 }
 h2{
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
 }
 ul{
     list-style: none;
     padding: 0px;
-}
-li{
 }
 a{
     color: black;
@@ -34,7 +34,11 @@ a:hover{
 #header{
     min-height: 174px;
     padding: 24px 0 0 160px;
-    background: url(images/cdxh.gif) no-repeat 0 center,url(images/cdcx.gif) no-repeat right center ;
+    font-family: serif;
+    background: url(images/cdxh.gif) no-repeat 0 center;
+}
+.header-container{
+    background: url(images/cdcx.gif) no-repeat top right;
 }
 #header h1{
     font-size: 50px;
@@ -70,12 +74,12 @@ a:hover{
     padding-top: 8px;
     border-top: 4px solid #006986;
 }
-#upper li{
+#tzgg li{
     height: 28px;
     text-indent: 18px;
     line-height: 28px;
 }
-#upper li a{
+#tzgg li a{
     display: block;
     float: left;
     height: 28px;
@@ -84,7 +88,7 @@ a:hover{
     overflow: hidden;
     font-size: 13px;
 }
-#upper span{
+#tzgg span{
     float: right;
     color: #006986;
 }
@@ -93,6 +97,24 @@ a:hover{
 }
 #tzgg li a{
     background: url(images/tzgg-bg.gif) no-repeat left center;
+}
+#xyxw li{
+    height: 28px;
+    text-indent: 18px;
+    line-height: 28px;
+}
+#xyxw li a{
+    display: block;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 75%;
+    overflow: hidden;
+    font-size: 13px;
+}
+#xyxw span{
+    float: right;
+    color: #006986;
 }
 #xyxw h2{
     background: url(images/xyxw.gif) no-repeat left center;
@@ -168,6 +190,8 @@ a:hover{
 }
 #down ul{
     margin-top: 20px;
+    display: block;
+    padding-top: 20px;
 }
 #down li{
     height: 24px;
@@ -177,18 +201,6 @@ a:hover{
 #down a{
     display: block;
     height: 24px;
-}
-#xsheng{
-    float: left;
-    width: 360px;
-}
-#xz{
-    float: left;
-    width: 360px;
-}
-#xshu{
-    float: left;
-    width: 360px;
 }
 .bottom-nav{
     background-color: #3d8da3;
@@ -223,4 +235,43 @@ a:hover{
     float: left;
     width: 14px;
     margin: 14px 8px 0 0;
+}
+@media(max-width:992px){
+    #header h1{
+        font-size: 40px;
+    }
+    #informations{
+        width: 100%;
+        text-align: center;
+    }
+    .mt{
+        
+    }
+}
+@media(max-width:768px){
+    body{
+        min-width: 265px;
+    }
+    #nav{
+        position:fixed;
+        top:0;
+        width: 100%;
+        z-index: 6666;
+    }
+    .header-container{
+        background: white;
+        margin-top: 50px;
+    }
+    #header h1{
+        font-size: 20px;
+    }
+    #header small{
+        font-size: 12px;
+    }
+    #bt-nav li{
+        display: block;
+        float: left;
+        width: 30%;
+        height: 40px;
+    }
 }
