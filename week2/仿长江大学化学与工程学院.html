@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <scripe type="text/javascript" src="js/jquery-1.12.1.js"></scripe>
-    <scripe type="text/javascript" src="js/bootstrap.min.js"></scripe>
+    <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>    
 <body>
     <div class="container header-container">
@@ -18,7 +18,7 @@
             <small>college of chemistry & environmental engineering</small>
         </div>
     </div>
-<div class="navbar navbar-default navi-div" role="navigation">
+<div class="navbar navbar-default navi-div" role="navigation" id="nav">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="navbar-collapse navbar-ex1-collapse collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <div class="container">
                     <ul class="nav nav-pills nav-justified">
                         <li><a href="">主　页</a></li>
@@ -46,7 +46,6 @@
                 </div>
             </div>
         </div>
-        <div class="clearfix"></div>
     </div>
     <div id="main">
         <div class="container" id="upper">
@@ -66,7 +65,7 @@
             <div class="col-lg-4 col-md-4" id="tpxw">
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="ative"></li>
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
                         <li data-target="#carousel" data-slide-to="2"></li>
                         <li data-target="#carousel" data-slide-to="3"></li>
@@ -90,13 +89,13 @@
                         </div>
                     </div>
                     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4" id="xyxw">
@@ -160,6 +159,7 @@
                         <li><a title="化工学院企业导师进校园暨就业专题培训讲座（二）" href="">化工学院企业导师进校园暨就业专题培训讲座（二）</a></li>
                         <li><a title="化工学院师生运动友谊赛圆满落幕" href="">化工学院师生运动友谊赛圆满落幕</a></li>
                     </ul>
+                <div class="clearfix"></div>
                 </div>
                 <div class="col-lg-4 col-md-4" id="xz">
                     <h2>学者</h2>
@@ -170,6 +170,7 @@
                         <li><a title="【长江人才】菁英人才田明磊" href="">【长江人才】菁英人才田明磊</a></li>
                         <li><a title="【长江人才】菁英人才肖围" href="">【长江人才】菁英人才肖围</a></li>
                     </ul>
+                <div class="clearfix"></div>
                 </div>
                 <div class="col-lg-4 col-md-4" id="xshu">
                     <h2>学术</h2>
@@ -180,6 +181,7 @@
                         <li><a title="2016年化工学院学术讲座（三）" href="">2016年化工学院学术讲座（三）</a></li>
                         <li><a title="2016年化工学院学术讲座（二）" href="">2016年化工学院学术讲座（二）</a></li>
                     </ul>
+                <div class="clearfix"></div>
                 </div>
             </div>
         </div>
@@ -204,28 +206,22 @@
             <p>邮编：434023 </p>
             <p>技术支持：长大在线信息传媒</p>
         </div>
-        <div class="col-lg-2 col-md-2 mt">
+        <div class="col-lg-2 col-md-2 visible-md  visible-lg mt">
             <h5>官方微博</h5>
             <img src="img/gfwb.gif" alt="">
             <div class="clearfix"></div>
         </div>
-        <div class="col-lg-2 col-md-2 mt">
+        <div class="col-lg-2 col-md-2 visible-md  visible-lg mt">
             <h5>官方应用</h5>
             <img src="img/gfqq.gif" alt="">
             <div class="clearfix"></div>
         </div>
-        <div class="col-lg-2 col-md-2 mt">
+        <div class="col-lg-2 col-md-2 visible-md  visible-lg mt">
             <h5>官方微信</h5>
             <img src="img/gfwx.gif" alt="">
             <div class="clearfix"></div>
         </div>
        </div>
     </div>
-    
-    <script>
-        $('.collapse').collapse();
-        $('.carousel').carousel();
-        $('.nav-tabs').button()
-    </script>
 </body>
 </html>
