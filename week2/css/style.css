@@ -191,7 +191,6 @@ a:hover{
 #down ul{
     margin-top: 20px;
     display: block;
-    padding-top: 20px;
 }
 #down li{
     height: 24px;
@@ -243,6 +242,9 @@ a:hover{
     #informations{
         width: 100%;
         text-align: center;
+    }
+    #down ul{
+        padding-top: 15px;
     }
 }
 @media(max-width:768px){

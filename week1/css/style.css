@@ -235,12 +235,18 @@ h5 a:hover{
     padding: 0;
     padding-left: 5px;
 }
+#zxxw{
+    height: 230px;
+}
 #zxxw li{
     background: url(img/li-4.gif) no-repeat left center;
 }
 #zxxw h5{
     background: url(img/zxxw.gif);
     height: 38px;
+}
+#rdxw{
+    height: 230px;
 }
 #rdxw h5{
     background: url(img/rdxw.gif);
@@ -281,18 +287,4 @@ h5 a:hover{
 #content-right ul{
     padding: 0;
     padding-left: 5px;
-}
-#zxxw li{
-    background: url(img/li-4.gif) no-repeat left center;
-}
-#zxxw h5{
-    background: url(img/zxxw.gif);
-    height: 38px;
-}
-#rdxw h5{
-    background: url(img/rdxw.gif);
-    height: 38px;
-}
-#rdxw li{
-    background: url(img/li-3.gif) no-repeat left center;
 }
